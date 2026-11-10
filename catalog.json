@@ -25,16 +25,17 @@
         "vi": "Trò chuyện và dịch với DeepSeek, hỗ trợ dịch hàng loạt, xuất luồng và thiết lập suy luận.",
         "ru": "Чат и перевод DeepSeek с пакетным переводом, потоковым выводом и настройками рассуждений."
       },
-      "version": "1.2.7",
+      "version": "1.3.3",
       "apiVersion": 1,
       "capabilities": [
         "chat",
         "translate",
         "dictionary",
-        "segmentSubtitle"
+        "segmentSubtitle",
+        "parseImage"
       ],
-      "downloadUrl": "https://raw.githubusercontent.com/fishjar/kiss-translator-plugins/dist/deepseek/1.2.7.zip",
-      "sha256": "dc753e61d4fe0d24da98850c881830f45e705a0932a23067ac64a1aa8efc1b9f"
+      "downloadUrl": "https://raw.githubusercontent.com/fishjar/kiss-translator-plugins/dist/deepseek/1.3.3.zip",
+      "sha256": "c75e2e1d263e4610c3424a579660f4e954abe2c3e1e10f54c2571f9e76bacc44"
     },
     {
       "id": "openai-compatible-bundle",
@@ -104,6 +105,43 @@
       ],
       "downloadUrl": "https://raw.githubusercontent.com/fishjar/kiss-translator-plugins/dist/openrouter/1.2.1.zip",
       "sha256": "1fced9931a04162fdcbeac478439ecd6610da9f042de89574a4ccc2e89b68018"
+    },
+    {
+      "id": "qianwen",
+      "name": "千问 AI",
+      "nameI18n": {
+        "zh": "千问 AI",
+        "en": "Qianwen AI",
+        "zh_TW": "千問 AI",
+        "ja": "Qianwen AI",
+        "ko": "Qianwen AI",
+        "tr": "Qianwen AI",
+        "vi": "Qianwen AI",
+        "ru": "Qianwen AI"
+      },
+      "description": "通过千问 AI 平台进行对话、翻译、语音识别和图片全文识别。",
+      "descriptionI18n": {
+        "zh": "通过千问 AI 平台进行对话、翻译、语音识别和图片全文识别。",
+        "en": "Chat, translation, speech recognition, and image text extraction through the Qianwen AI Platform.",
+        "zh_TW": "透過千問 AI 平台進行對話、翻譯、語音辨識和圖片全文辨識。",
+        "ja": "千問 AI プラットフォームでチャット、翻訳、音声認識、画像の文字抽出を行います。",
+        "ko": "Qianwen AI 플랫폼을 통한 대화, 번역, 음성 인식 및 이미지 텍스트 추출.",
+        "tr": "Qianwen AI Platformu ile sohbet, çeviri, konuşma tanıma ve görüntüden metin çıkarma.",
+        "vi": "Trò chuyện, dịch, nhận dạng giọng nói và trích xuất văn bản từ ảnh qua nền tảng Qianwen AI.",
+        "ru": "Чат, перевод, распознавание речи и извлечение текста из изображений на платформе Qianwen AI."
+      },
+      "version": "1.0.3",
+      "apiVersion": 1,
+      "capabilities": [
+        "chat",
+        "translate",
+        "dictionary",
+        "segmentSubtitle",
+        "transcribe",
+        "parseImage"
+      ],
+      "downloadUrl": "https://raw.githubusercontent.com/fishjar/kiss-translator-plugins/dist/qianwen/1.0.3.zip",
+      "sha256": "bb3676a5a201d5cd7940f250e5adb28278daedf39a57dc11de27fb0f62a244b1"
     },
     {
       "id": "siliconflow",
